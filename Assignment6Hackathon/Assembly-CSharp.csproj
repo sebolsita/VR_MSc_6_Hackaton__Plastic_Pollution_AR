@@ -62,16 +62,23 @@
   <ItemGroup>
     <Compile Include="Assets\SCRIPTS\2023\YarnAudioSourceLipSyncControl.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\ThirdPersonLoader.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\IDespawnedPoolObject.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\MouseCursorLock.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\Helpers\ExtensionMethods.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\FadePlaneMaterial.cs" />
+    <Compile Include="Assets\ObjectPools\Demo Scene\Scripts\Spawner.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\Managers\LoadPersistentObjects.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\GoalManager.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\Helpers\HelperFunctions.cs" />
     <Compile Include="Assets\SCRIPTS\2023\NPC3D.cs" />
     <Compile Include="Assets\SCRIPTS\RandomNavMeshPosition.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\GazeTooltips.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\ZoneScale.cs" />
+    <Compile Include="Assets\ObjectPools\Demo Scene\Scripts\DespawnAfterDelay.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\PinchVizController.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\DespawnedPoolObject.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\SCRIPTS\NavMeshBaker.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\PositionAtStart.cs" />
@@ -86,6 +93,7 @@
     <Compile Include="Assets\SCRIPTS\2023\KeyboardMovementPlayer.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\TurnToFace.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\CameraOrbit.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\Managers\ObjectPoolManager.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\LookAtCamera.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\SCRIPTS\FollowPlayer.cs" />
@@ -100,6 +108,7 @@
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\XRBlaster.cs" />
     <Compile Include="Assets\YarnElements\2023\Demo Dialogue\QuitGameCommand.cs" />
+    <Compile Include="Assets\ObjectPools\Scripts\IRetrievedPoolObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
