@@ -65,6 +65,7 @@
     <Compile Include="Assets\ObjectPools\Scripts\IDespawnedPoolObject.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\MouseCursorLock.cs" />
     <Compile Include="Assets\ObjectPools\Scripts\Helpers\ExtensionMethods.cs" />
+    <Compile Include="Assets\SCRIPTS\BottleImpactSound.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\FadePlaneMaterial.cs" />
     <Compile Include="Assets\ObjectPools\Demo Scene\Scripts\Spawner.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Assets\SCRIPTS\2022\XRFireCaster.cs" />
     <Compile Include="Assets\SCRIPTS\NPCAnimationController.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\TransformExtensions.cs" />
+    <Compile Include="Assets\HandController.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\SCRIPTS\2023\KeyboardMovementPlayer.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\TurnToFace.cs" />
