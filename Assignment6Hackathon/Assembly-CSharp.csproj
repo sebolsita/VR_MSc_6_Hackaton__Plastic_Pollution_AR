@@ -99,6 +99,7 @@
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\LookAtCamera.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\SCRIPTS\FollowPlayer.cs" />
+    <Compile Include="Assets\SCRIPTS\NPCLookAt.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\GroundCheck.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\PersonalAvatarLoader.cs" />
@@ -816,6 +817,9 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.Hands">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Hands.dll</HintPath>
     </Reference>
@@ -995,6 +999,9 @@
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
