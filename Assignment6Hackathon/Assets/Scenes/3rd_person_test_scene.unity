@@ -2289,6 +2289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2450859906098290799, guid: da0f61ab9584e9148901c5e739256c69, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7420876618219950721, guid: da0f61ab9584e9148901c5e739256c69, type: 3}
       propertyPath: m_Name
       value: PlasticInfoGraphic2
@@ -2651,6 +2655,10 @@ PrefabInstance:
     - target: {fileID: 4227251053265926651, guid: 488f44985a08e434b95aba82a260263d, type: 3}
       propertyPath: m_Name
       value: PlasticInfoGraphic1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738183076067032189, guid: 488f44985a08e434b95aba82a260263d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6915349472163150037, guid: 488f44985a08e434b95aba82a260263d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3137,7 +3145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 685974753}
-  maxHeadTurnAngle: 4
+  maxHeadTurnAngle: 1
   headTurnSpeed: 3
   bodyTurnSpeed: 2
   animator: {fileID: 8217957323004007808}
