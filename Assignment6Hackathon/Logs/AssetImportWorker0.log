@@ -1,0 +1,2080 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pl' Physical Memory: 64943 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Program Files\Unity\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/TeamOscar/Assignment6Hackathon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56359
+Successfully changed project path to: D:/TeamOscar/Assignment6Hackathon
+D:/TeamOscar/Assignment6Hackathon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38956] Host "[IP] 192.168.4.31 [Port] 0 [Flags] 2 [Guid] 4132488567 [EditorId] 4132488567 [Version] 1048832 [Id] WindowsEditor(7,HPS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38956] Host "[IP] 192.168.4.31 [Port] 0 [Flags] 2 [Guid] 4132488567 [EditorId] 4132488567 [Version] 1048832 [Id] WindowsEditor(7,HPS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 39.01 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path E:/Program Files/Unity/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TeamOscar/Assignment6Hackathon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   NVIDIA
+    VRAM:     16191 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/Program Files/Unity/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/Unity/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Program Files/Unity/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003935 seconds.
+- Loaded All Assemblies, in  0.310 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2215 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.504 seconds
+Domain Reload Profiling: 2814ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (128ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2505ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2320ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.901 seconds
+Refreshing native plugins compatible for Editor in 15.96 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\TeamOscar\Assignment6Hackathon\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+DisplayProgressbar: Ready Player Me
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1870ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (689ms)
+		LoadAssemblies (407ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (298ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (802ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 16.50 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 172 unused Assets / (1.9 MB). Loaded Objects now: 7966.
+Memory consumption went from 286.1 MB to 284.2 MB.
+Total: 5.046800 ms (FindLiveObjects: 0.532400 ms CreateObjectMapping: 0.239600 ms MarkObjects: 3.411400 ms  DeleteObjects: 0.862100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48550.216264 seconds.
+  path: Assets/Models/Free/Waste-Bin_Type23.FBX
+  artifactKey: Guid(0d092a2b3f072f24f9483dcbe4f6db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/Waste-Bin_Type23.FBX using Guid(0d092a2b3f072f24f9483dcbe4f6db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e40919cccd51dc9429240123494d2f') in 0.355552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 568.173307 seconds.
+  path: Assets/SCRIPTS/BinCheckType.cs
+  artifactKey: Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/BinCheckType.cs using Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a088aa88cbb15defe7c3036837092c') in 0.000584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.747 seconds
+Refreshing native plugins compatible for Editor in 21.16 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\TeamOscar\Assignment6Hackathon\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.830 seconds
+Domain Reload Profiling: 2576ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (854ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (649ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 20.06 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8022.
+Memory consumption went from 255.8 MB to 254.0 MB.
+Total: 5.372000 ms (FindLiveObjects: 0.546400 ms CreateObjectMapping: 0.410200 ms MarkObjects: 3.549500 ms  DeleteObjects: 0.864900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.246912 seconds.
+  path: Assets/SCRIPTS/BinCheckType.cs
+  artifactKey: Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/BinCheckType.cs using Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5d2335180b3332294271ae634eac1') in 0.007841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.684130 seconds.
+  path: Assets/SCRIPTS/BinCheckType.cs
+  artifactKey: Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCRIPTS/BinCheckType.cs using Guid(842c0aaba72dec94a83c0e8bd9f4a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdea9d3e0253c4270564b96304f7e49') in 0.000872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 16.75 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.553 seconds
+Domain Reload Profiling: 2108ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (756ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (563ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 16.42 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.9 MB). Loaded Objects now: 8028.
+Memory consumption went from 257.8 MB to 255.9 MB.
+Total: 5.524200 ms (FindLiveObjects: 0.585500 ms CreateObjectMapping: 0.287100 ms MarkObjects: 3.726400 ms  DeleteObjects: 0.923800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 951.802476 seconds.
+  path: Assets/Bins/3.-Plastic-bottles,-pots,-tubs-_-trays---English.jpg
+  artifactKey: Guid(98f29d7e8df16424fb328e5397dc6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bins/3.-Plastic-bottles,-pots,-tubs-_-trays---English.jpg using Guid(98f29d7e8df16424fb328e5397dc6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9b50c47220b12ec1eb9516b3a7e4c2') in 0.060810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.262428 seconds.
+  path: Assets/Bins/infographic1.jpg
+  artifactKey: Guid(98f29d7e8df16424fb328e5397dc6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bins/infographic1.jpg using Guid(98f29d7e8df16424fb328e5397dc6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8eb96d0199f91f342bc587fd243111') in 0.020348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.943631 seconds.
+  path: Assets/Bins/66846284_1358530914314382_4148009105862164480_n.jpg
+  artifactKey: Guid(8f59444439040294f9a9765a97edd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bins/66846284_1358530914314382_4148009105862164480_n.jpg using Guid(8f59444439040294f9a9765a97edd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b68b9add4b48cc5f3e0c4570d43b8b') in 0.027828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.321712 seconds.
+  path: Assets/Bins/infographic2.jpg
+  artifactKey: Guid(8f59444439040294f9a9765a97edd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bins/infographic2.jpg using Guid(8f59444439040294f9a9765a97edd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d8cd37fcf726e7abbf0d3d483047a4') in 0.031019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.533 seconds
+Refreshing native plugins compatible for Editor in 17.73 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.605 seconds
+Domain Reload Profiling: 2137ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 19.68 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8037.
+Memory consumption went from 259.7 MB to 257.9 MB.
+Total: 4.954200 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.218000 ms MarkObjects: 3.112700 ms  DeleteObjects: 1.142600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213.257416 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly
+  artifactKey: Guid(938035c153a3d884a9590de7d8b73119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly using Guid(938035c153a3d884a9590de7d8b73119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6194d42b64236e82a5bf782332f1bbf') in 0.005109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.461265 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly/Materials
+  artifactKey: Guid(1bc895a27f9c76e46802a41bcf1c0e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly/Materials using Guid(1bc895a27f9c76e46802a41bcf1c0e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3caad6dc1b13e22d8a96e2412c5e63') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 142.866116 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly/BottleOfBeer.FBX
+  artifactKey: Guid(e41b4f9459c489a4596e740b61a3dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly/BottleOfBeer.FBX using Guid(e41b4f9459c489a4596e740b61a3dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febfc9a9ac0327abc1aca986daab27fa') in 0.220831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.867380 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly/Bottle4.FBX
+  artifactKey: Guid(c508bee724909024ebabc106ffc525ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly/Bottle4.FBX using Guid(c508bee724909024ebabc106ffc525ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244799c69617f924386bcb643e55b053') in 0.014515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.163248 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly/Bottle3.FBX
+  artifactKey: Guid(cfd21ef8050231440a7ccd68a5517483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly/Bottle3.FBX using Guid(cfd21ef8050231440a7ccd68a5517483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e080daf08aaa107894cb626a971b8bd2') in 0.016047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.321861 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly/Bottle1.FBX
+  artifactKey: Guid(695cb951c9e5b2e4ebc1baccb673fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly/Bottle1.FBX using Guid(695cb951c9e5b2e4ebc1baccb673fbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c48b5406c50be5c97b96d45725d6048') in 0.012130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 22.394446 seconds.
+  path: Assets/Bottles/Trash Pack Low Poly (possiblyObsolete)
+  artifactKey: Guid(938035c153a3d884a9590de7d8b73119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Trash Pack Low Poly (possiblyObsolete) using Guid(938035c153a3d884a9590de7d8b73119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aa7c4d01bafade5f8155723e8db22c') in 0.000480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.780932 seconds.
+  path: Assets/Trash Pack Low Poly/BottleOfWater.FBX
+  artifactKey: Guid(bfe4bd7ca2c7a254dbc9bcd23bb71cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/BottleOfWater.FBX using Guid(bfe4bd7ca2c7a254dbc9bcd23bb71cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b163facd88ec42cfed936445e07d78') in 0.022238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 6.299060 seconds.
+  path: Assets/Trash Pack Low Poly/Materials
+  artifactKey: Guid(abfe30cf4ab67724a80ca53b1febdbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials using Guid(abfe30cf4ab67724a80ca53b1febdbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca0dc94591a90825ed7a26597713cc7') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.537216 seconds.
+  path: Assets/Trash Pack Low Poly/Cereal_2.prefab
+  artifactKey: Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Cereal_2.prefab using Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2492634ecd8de194a3d8e8b815e9b065') in 0.017173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.303969 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Materials
+  artifactKey: Guid(d6590a09360f54a4da493bc8459c43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Materials using Guid(d6590a09360f54a4da493bc8459c43d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3a6336ad09df73d86535c84c732de2') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.599585 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Battery.png
+  artifactKey: Guid(0c63993a57b342040b6a04fe73b38b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Battery.png using Guid(0c63993a57b342040b6a04fe73b38b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160bf9587a396faa0b90c5b9064ca1e7') in 0.015414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.510701 seconds.
+  path: Assets/Trash Pack Low Poly/BottleOfBeer1_2.prefab
+  artifactKey: Guid(18c7f6b8eb5793f49a8f6d81d2e01b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/BottleOfBeer1_2.prefab using Guid(18c7f6b8eb5793f49a8f6d81d2e01b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b56d700bdf919c28817e1350b88396') in 0.011638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.827637 seconds.
+  path: Assets/Trash Pack Low Poly/Bottle4_2.prefab
+  artifactKey: Guid(3667125f3eed893459ad620dfedcca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Bottle4_2.prefab using Guid(3667125f3eed893459ad620dfedcca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ab54d2908cc516f8719a5de2c8d78') in 0.009609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.903561 seconds.
+  path: Assets/Trash Pack Low Poly/Bottle3_1.prefab
+  artifactKey: Guid(8b342121ff2be5a45b964062c2ec412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Bottle3_1.prefab using Guid(8b342121ff2be5a45b964062c2ec412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0409fb9b77846c853a6b59430ad8129c') in 0.007089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.700213 seconds.
+  path: Assets/Trash Pack Low Poly/Bottle2.FBX
+  artifactKey: Guid(600f6467914f8fb48926d853668a1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Bottle2.FBX using Guid(600f6467914f8fb48926d853668a1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22927f3d2caedd1f508b5b317120c258') in 0.010107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.722587 seconds.
+  path: Assets/Trash Pack Low Poly/Materials/Cereal.png
+  artifactKey: Guid(541c430536f81ac4fb52704d36899019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Materials/Cereal.png using Guid(541c430536f81ac4fb52704d36899019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6987c734247b4088cadcdb350d71c690') in 0.009518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.504304 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan4.FBX
+  artifactKey: Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan4.FBX using Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5027c4127579b3dffb99e65ea00b7d2') in 0.058427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.210377 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan3.FBX
+  artifactKey: Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan3.FBX using Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8880a96c2389f4cbe4d251932fe61') in 0.103465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.562492 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan2.FBX
+  artifactKey: Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan2.FBX using Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0323363877333810b668962779c7378f') in 0.011455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.900307 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan1.FBX
+  artifactKey: Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan1.FBX using Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4017ec5ef7888442cacd9d68d9088f') in 0.028974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.977004 seconds.
+  path: Assets/Trash Pack Low Poly/ToiletPaper2.FBX
+  artifactKey: Guid(10aa997cce14d3d41be3c9405d8ccb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/ToiletPaper2.FBX using Guid(10aa997cce14d3d41be3c9405d8ccb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002f85827d2661aa54dbdefda7936c25') in 0.015123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.702274 seconds.
+  path: Assets/Trash Pack Low Poly/ToiletPaper1.FBX
+  artifactKey: Guid(1acaaf86318fa854d91d6b1aab1551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/ToiletPaper1.FBX using Guid(1acaaf86318fa854d91d6b1aab1551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8712c198188a6f47a82b3956279340a2') in 0.017664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.027875 seconds.
+  path: Assets/Trash Pack Low Poly/PlasticCoup.FBX
+  artifactKey: Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/PlasticCoup.FBX using Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edd006a15f6ba85b75756563594a939') in 0.009470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.688753 seconds.
+  path: Assets/Trash Pack Low Poly/Desks.FBX
+  artifactKey: Guid(bc2d43327f6b0a24881ad76800285f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Desks.FBX using Guid(bc2d43327f6b0a24881ad76800285f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b528c38c0eca31dcff42bad6cee2a3c0') in 0.037618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 26.807687 seconds.
+  path: Assets/Bottles/NPC_Recycling (1).prefab
+  artifactKey: Guid(8d8d386c9900cfb4e8033dae6ef8c794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/NPC_Recycling (1).prefab using Guid(8d8d386c9900cfb4e8033dae6ef8c794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00c8ef230376dbfbcd2c17cfba5efeb') in 0.081039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 7.952610 seconds.
+  path: Assets/Bottles/Spawner.prefab
+  artifactKey: Guid(df31f0515c523bd4f91864ef66d53f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Spawner.prefab using Guid(df31f0515c523bd4f91864ef66d53f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0116babca3f6b5967ac69f63cf7ca369') in 0.014932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.635522 seconds.
+  path: Assets/Bottles/TableAndChair.prefab
+  artifactKey: Guid(671d486f64cbd064b928d8881401744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/TableAndChair.prefab using Guid(671d486f64cbd064b928d8881401744b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6647ce4acb43c95cd72c6098d8f1edf') in 0.173607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 31.456923 seconds.
+  path: Assets/Prefabs/NPC.prefab
+  artifactKey: Guid(b2cfb606703f1944db0e2b836dc5ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPC.prefab using Guid(b2cfb606703f1944db0e2b836dc5ef0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35d9a4721a0af8b9805e02266aac925') in 0.012913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.693434 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(80f1339080989d6499f21400458f2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(80f1339080989d6499f21400458f2759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9e4f10e17d447f24797c9543306327') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.371396 seconds.
+  path: Assets/Prefabs/Seb's prefabs from yarn project
+  artifactKey: Guid(17c97b3244f403a4c822ab1cb52b5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Seb's prefabs from yarn project using Guid(17c97b3244f403a4c822ab1cb52b5ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea97452a532fac2eb42dfbfe887ca1a') in 0.002390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.773727 seconds.
+  path: Assets/Prefabs/--- YARN ELEMENTS ---.prefab
+  artifactKey: Guid(d4bacc4eba3673d48a0ab37e520d2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/--- YARN ELEMENTS ---.prefab using Guid(d4bacc4eba3673d48a0ab37e520d2019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243b70af2df7d8a78a36250f58345b53') in 0.026822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 17.57 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.591 seconds
+Domain Reload Profiling: 2141ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (360ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 22.63 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 132 unused Assets / (1.9 MB). Loaded Objects now: 8087.
+Memory consumption went from 264.2 MB to 262.3 MB.
+Total: 5.523900 ms (FindLiveObjects: 0.510200 ms CreateObjectMapping: 0.346600 ms MarkObjects: 3.659300 ms  DeleteObjects: 1.006300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110.476475 seconds.
+  path: Assets/Prefabs/NPC_Recycling.prefab
+  artifactKey: Guid(010b2a55c2396b143a5524c0fe23670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NPC_Recycling.prefab using Guid(010b2a55c2396b143a5524c0fe23670e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c1c21054c4c9b8839eaeb52540dda4') in 0.258322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 6.266847 seconds.
+  path: Assets/Prefabs/BinsForMinigame.prefab
+  artifactKey: Guid(aec37a4cb14c9ab4cbc448482ac19e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BinsForMinigame.prefab using Guid(aec37a4cb14c9ab4cbc448482ac19e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee9420ddbe7fa9689a0eb23995de38') in 0.172717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 5.427189 seconds.
+  path: Assets/Prefabs/TableAndChair.prefab
+  artifactKey: Guid(291f78940a446c84aaa3b4e41cdb5589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TableAndChair.prefab using Guid(291f78940a446c84aaa3b4e41cdb5589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d503cb55c63faf933603d85236333') in 0.240529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 7.874514 seconds.
+  path: Assets/Prefabs/PlasticInfoGraphic1.prefab
+  artifactKey: Guid(488f44985a08e434b95aba82a260263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlasticInfoGraphic1.prefab using Guid(488f44985a08e434b95aba82a260263d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fc6538810e6251552889bd9a0df335') in 0.118579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.101885 seconds.
+  path: Assets/Prefabs/PlasticInfoGraphic2.prefab
+  artifactKey: Guid(da0f61ab9584e9148901c5e739256c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlasticInfoGraphic2.prefab using Guid(da0f61ab9584e9148901c5e739256c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd784cb5a97af855092ac00a249d03') in 0.025022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 55.606639 seconds.
+  path: Assets/Trash Pack Low Poly/PlasticCoup.FBX
+  artifactKey: Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/PlasticCoup.FBX using Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc13c4ad595351ebb45fffec1dfd65e5') in 0.022468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.405601 seconds.
+  path: Assets/Bottles/PlasticCoup.FBX
+  artifactKey: Guid(6283c2831ad0f0d41bf3b44ac60c1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/PlasticCoup.FBX using Guid(6283c2831ad0f0d41bf3b44ac60c1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1f62c74b78d8fdd89dc04240098f96') in 0.016303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 184.834493 seconds.
+  path: Assets/Bottles/Bottle3_1 1.prefab
+  artifactKey: Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Bottle3_1 1.prefab using Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c78ecda7d07574036c1e3dc2bc634f2') in 0.014492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 2.453676 seconds.
+  path: Assets/Bottles/Bottle3_1 1.prefab
+  artifactKey: Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Bottle3_1 1.prefab using Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26be290ab5a2321387a84ee92d037953') in 0.012631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.566464 seconds.
+  path: Assets/Bottles/Bottle3_1 1.prefab
+  artifactKey: Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Bottle3_1 1.prefab using Guid(d8a8e8920579fb64e8e68fcdff7e2fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1869d964e2b7d5c79e3c727b52cb80') in 0.011098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 18.78 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.599 seconds
+Domain Reload Profiling: 2159ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (572ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 21.14 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8130.
+Memory consumption went from 266.2 MB to 264.4 MB.
+Total: 5.544800 ms (FindLiveObjects: 0.542300 ms CreateObjectMapping: 0.402600 ms MarkObjects: 3.573800 ms  DeleteObjects: 1.024800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 18.22 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.598 seconds
+Domain Reload Profiling: 2119ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 21.92 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8136.
+Memory consumption went from 268.1 MB to 266.2 MB.
+Total: 6.575200 ms (FindLiveObjects: 0.625400 ms CreateObjectMapping: 0.606600 ms MarkObjects: 4.285000 ms  DeleteObjects: 1.056900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 17.55 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.581 seconds
+Domain Reload Profiling: 2111ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 19.74 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8142.
+Memory consumption went from 270.0 MB to 268.2 MB.
+Total: 5.948100 ms (FindLiveObjects: 0.535300 ms CreateObjectMapping: 0.518800 ms MarkObjects: 3.797100 ms  DeleteObjects: 1.095800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.739444 seconds.
+  path: Assets/Bottles/PlasticCoup.prefab
+  artifactKey: Guid(925775847a32a1e4abcc6088729d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/PlasticCoup.prefab using Guid(925775847a32a1e4abcc6088729d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6282ba1b8aa89d9c0421ca56a79aa') in 0.238086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 26.817311 seconds.
+  path: Assets/Bottles/PlasticCoup.prefab
+  artifactKey: Guid(925775847a32a1e4abcc6088729d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/PlasticCoup.prefab using Guid(925775847a32a1e4abcc6088729d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f99ac09e8d4e6dae195403c16b952d') in 0.001104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.442011 seconds.
+  path: Assets/Bottles/PlasticCoup.FBX
+  artifactKey: Guid(9f4d9ce910d513d4f912eba2eb25329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/PlasticCoup.FBX using Guid(9f4d9ce910d513d4f912eba2eb25329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aee2ae053a680e7d244ce0ae6665b0') in 0.020074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 194.612245 seconds.
+  path: Assets/Bottles/PlasticCoup 1.prefab
+  artifactKey: Guid(59e0f82cdeebd584ababd667550c992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/PlasticCoup 1.prefab using Guid(59e0f82cdeebd584ababd667550c992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665ede4c5065b60816816dc96a974084') in 0.014281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 62.846816 seconds.
+  path: Assets/Trash Pack Low Poly/Bottle1_2.prefab
+  artifactKey: Guid(dd9608af606942d40866ed841b2910bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Bottle1_2.prefab using Guid(dd9608af606942d40866ed841b2910bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb9721893bd7ff064e919b57b5df362') in 0.009391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.238050 seconds.
+  path: Assets/Trash Pack Low Poly/BottleOfWater.FBX
+  artifactKey: Guid(bfe4bd7ca2c7a254dbc9bcd23bb71cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/BottleOfWater.FBX using Guid(bfe4bd7ca2c7a254dbc9bcd23bb71cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958df10363ced776787e45c902ca56a9') in 0.011427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 10.280622 seconds.
+  path: Assets/Trash Pack Low Poly/Brick1.FBX
+  artifactKey: Guid(88d9644d06d973f458e250d90868826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Brick1.FBX using Guid(88d9644d06d973f458e250d90868826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e99b26aa98b343bf88a65f2e46ed09') in 0.009809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.578561 seconds.
+  path: Assets/Trash Pack Low Poly/Brick2.FBX
+  artifactKey: Guid(9972094f27e0e794a81edfda44d34e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Brick2.FBX using Guid(9972094f27e0e794a81edfda44d34e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1774f4c3ce387c3592a87ed4d8b886c0') in 0.010077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.266531 seconds.
+  path: Assets/Trash Pack Low Poly/Cereal.FBX
+  artifactKey: Guid(8cdf52bef3c7c874498d5def25a35bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Cereal.FBX using Guid(8cdf52bef3c7c874498d5def25a35bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddc2c0113673772cd47cae05dbbed00') in 0.013997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.806016 seconds.
+  path: Assets/Trash Pack Low Poly/Cereal_2.prefab
+  artifactKey: Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Cereal_2.prefab using Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484400decaf21b5cfd7cf0d3daa63a81') in 0.007704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.612679 seconds.
+  path: Assets/Trash Pack Low Poly/Desks.FBX
+  artifactKey: Guid(bc2d43327f6b0a24881ad76800285f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Desks.FBX using Guid(bc2d43327f6b0a24881ad76800285f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a018c0afb8a31b45da052919d2b9de25') in 0.033524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.556111 seconds.
+  path: Assets/Trash Pack Low Poly/PlasticCoup.FBX
+  artifactKey: Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/PlasticCoup.FBX using Guid(faed0e6ed186b9b479ddef4ff61a5f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be00cbcc486a2d9caabc035f8168b3a3') in 0.009992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.448358 seconds.
+  path: Assets/Trash Pack Low Poly/ToiletPaper1.FBX
+  artifactKey: Guid(1acaaf86318fa854d91d6b1aab1551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/ToiletPaper1.FBX using Guid(1acaaf86318fa854d91d6b1aab1551cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0ffdf04f645b5aecc1fdc4e0a63d5c') in 0.012462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.546762 seconds.
+  path: Assets/Trash Pack Low Poly/ToiletPaper2.FBX
+  artifactKey: Guid(10aa997cce14d3d41be3c9405d8ccb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/ToiletPaper2.FBX using Guid(10aa997cce14d3d41be3c9405d8ccb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68ce46ee4cdafdb246927f2d7bda7e2') in 0.013449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.377642 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan1.FBX
+  artifactKey: Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan1.FBX using Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf696aac6ca18234509e030f6a257500') in 0.024564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.705637 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan2.FBX
+  artifactKey: Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan2.FBX using Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfae8d380be74b47594391890177458') in 0.092220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.240385 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan3.FBX
+  artifactKey: Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan3.FBX using Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f867b87534d41b7ab90b139b646bce') in 0.088693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 1.397388 seconds.
+  path: Assets/Trash Pack Low Poly/Trashcan4.FBX
+  artifactKey: Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Trashcan4.FBX using Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bd40b90161e2706513c49bf08c6dd1') in 0.019615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 7.536979 seconds.
+  path: Assets/Trash Pack Low Poly/Battery1.FBX
+  artifactKey: Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly/Battery1.FBX using Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd30579f3e85c9918e3775449e1a63c') in 0.009939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 199.392954 seconds.
+  path: Assets/Bottles/Materials
+  artifactKey: Guid(3b549780e3651df439158af9923d256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/Materials using Guid(3b549780e3651df439158af9923d256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f152874723eae706e9e84ade513a9') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.065245 seconds.
+  path: Assets/Bottles/BottleOfWater.prefab
+  artifactKey: Guid(299563484cc83364f8c39362dcc4965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/BottleOfWater.prefab using Guid(299563484cc83364f8c39362dcc4965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929b7d23104ca0db366466cde2a98a8b') in 0.012667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 37.341929 seconds.
+  path: Assets/Bottles/BottleOfWater (1).prefab
+  artifactKey: Guid(81060ac231b080046a60f4bf76bec324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/BottleOfWater (1).prefab using Guid(81060ac231b080046a60f4bf76bec324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e43ffda5eaa59990df199916fceace7') in 0.012324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 21.12 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path D:\TeamOscar\Assignment6Hackathon\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.615 seconds
+Domain Reload Profiling: 2172ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (786ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 20.14 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.8 MB). Loaded Objects now: 8184.
+Memory consumption went from 272.4 MB to 270.6 MB.
+Total: 7.102100 ms (FindLiveObjects: 0.517100 ms CreateObjectMapping: 0.464300 ms MarkObjects: 4.897100 ms  DeleteObjects: 1.222600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.513 seconds
+Refreshing native plugins compatible for Editor in 18.21 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.627 seconds
+Domain Reload Profiling: 2139ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 19.34 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.9 MB). Loaded Objects now: 8190.
+Memory consumption went from 274.3 MB to 272.4 MB.
+Total: 5.858600 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.482000 ms MarkObjects: 3.698600 ms  DeleteObjects: 1.133100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 17.33 ms, found 13 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MIXED REALITY NPC DIALOGUE DEMO
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Error: Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:AddModuleRequest (string) (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:125)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:InstallModules () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:98)
+ReadyPlayerMe.Core.Editor.ModuleInstaller:.cctor () (at ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.readyplayerme.core@8f02c60f75/Editor/Module Management/ModuleInstaller.cs Line: 125)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.634 seconds
+Domain Reload Profiling: 2170ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (351ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (823ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 19.57 ms, found 13 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (1.9 MB). Loaded Objects now: 8196.
+Memory consumption went from 276.2 MB to 274.4 MB.
+Total: 6.139900 ms (FindLiveObjects: 0.562000 ms CreateObjectMapping: 0.545000 ms MarkObjects: 3.884100 ms  DeleteObjects: 1.147900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 136.683419 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Battery1.FBX
+  artifactKey: Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Battery1.FBX using Guid(eef823a0d743d8942b54d878cc992b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e652261bf3c6abf9af5f0196266618a2') in 0.239520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 1.608464 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Bottle2.FBX
+  artifactKey: Guid(600f6467914f8fb48926d853668a1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Bottle2.FBX using Guid(600f6467914f8fb48926d853668a1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8c8f89404aff26e2fa647cce015af0') in 0.010005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.554760 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Cereal_2.prefab
+  artifactKey: Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Cereal_2.prefab using Guid(44d893618ee70db4fbea9c13f14a89fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719cdb72f40e0a957a46e6fe34f26597') in 0.008005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.587518 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Trashcan1.FBX
+  artifactKey: Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Trashcan1.FBX using Guid(de32a7368f7dfb543b7be3010d09e8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0057b84bb04389f3c4fc360130a1da2b') in 0.035245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.346518 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Trashcan2.FBX
+  artifactKey: Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Trashcan2.FBX using Guid(b8da0da0496258844a68c4759e5442e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8549b69a5390e38dc0d8b3031c3d1f99') in 0.014836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2.807020 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Trashcan3.FBX
+  artifactKey: Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Trashcan3.FBX using Guid(fedbd75f24167ac4390debcecd50ccbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aef9bc603bf028a06b78828c51730f5') in 0.155426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 1.544243 seconds.
+  path: Assets/Trash Pack Low Poly (obsolete)/Trashcan4.FBX
+  artifactKey: Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash Pack Low Poly (obsolete)/Trashcan4.FBX using Guid(4897e8b654a8a7f489e6681cfe3fb50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efb100a85d270e013ccc96acf356a26') in 0.061693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 153.041354 seconds.
+  path: Assets/Bottles/BottleOfWater 1.prefab
+  artifactKey: Guid(a5878a6e0179c5142b52639cb6fa5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/BottleOfWater 1.prefab using Guid(a5878a6e0179c5142b52639cb6fa5a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c1fdfb1f14168da8de9b177fd0a356') in 0.024794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.710036 seconds.
+  path: Assets/Bottles/BottleOfWater.prefab
+  artifactKey: Guid(299563484cc83364f8c39362dcc4965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bottles/BottleOfWater.prefab using Guid(299563484cc83364f8c39362dcc4965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b61c015f00d973ca0d2f8a36200591') in 0.006576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24

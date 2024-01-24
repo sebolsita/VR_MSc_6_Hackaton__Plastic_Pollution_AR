@@ -1,0 +1,16 @@
+# Ignore the Library folder
+Library/
+
+# Ignore the Temp folder
+Temp/
+
+# Ignore Auto-generated Project Files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
