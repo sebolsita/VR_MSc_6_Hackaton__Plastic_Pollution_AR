@@ -85,6 +85,7 @@
     <Compile Include="Assets\MRTemplateAssets\Scripts\PositionAtStart.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\LoadingAnimation.cs" />
     <Compile Include="Assets\SCRIPTS\2023\YarnCommandsDemo2023.cs" />
+    <Compile Include="Assets\SCRIPTS\BinCheckType.cs" />
     <Compile Include="Assets\SCRIPTS\2022\YarnCommandHolder.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\FadeMaterial.cs" />
     <Compile Include="Assets\SCRIPTS\2022\XRFireCaster.cs" />
