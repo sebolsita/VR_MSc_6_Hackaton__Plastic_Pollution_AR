@@ -1,2 +1,2 @@
 # TeamOscar
-Group Assignment 6 - Hackathon - Climate Change (Team Oscar)
+Group Assignment 6 - Hackathon - "Turning The Tide On Plastic Pollution" Climate Change (Team Oscar)

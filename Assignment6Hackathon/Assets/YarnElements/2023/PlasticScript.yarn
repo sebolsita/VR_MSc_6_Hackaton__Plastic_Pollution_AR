@@ -1,0 +1,130 @@
+﻿title: Awake
+tag:
+colorID: 0
+position: -222,-222
+---
+
+<<declare $startedScene = true>>
+<<declare $cubeToChange = "" as string>>
+<<declare $colourOfCube = "" as string>>
+<<declare $numberOfNPCs = 0>>
+<<declare $visitedCubeOne = false>>
+<<declare $visitedCubeTwo = false>>
+<<declare $guitarState = false>>
+
+<<declare $dialogueOption = 0>>
+===
+
+title: Start
+tags:
+position: -43,-90
+---
+Morgan Freeplastic: "Every year, millions of tons of plastic waste pour into our oceans, rivers, and landscapes, creating a crisis invisible to many. Today, we'll explore the reality of plastic pollution and what we can do to make a difference. In front of you are a few common plastic items that heavily pollute our planet, let's pick one and continue." #line:PlasticLineIntro1
+//Pcik a plastic item to begin
+    Pick an Item to begin.#line:PickAnItemToBrign
+-> Plastic Bottle  
+    <<jump PlasticBottle>>
+-> Single Use Bags 
+    <<jump SingleUseBags>>
+-> Single Use Contaiers 
+    <<jump SingleUseContainers>>       
+-> Why Should I Care? 
+    <<jump HowDoesThatImpactMe>>
+-> Can you tell me about the 3Rs?  
+    <<jump AppOutro>>
+===
+
+title: startMenu2
+position: 258,39
+---
+Morgan Freeplastic: Is there anything else you would like to know?  
+-> Can you tell me about Plastic Bottle again. 
+    <<jump PlasticBottle>>
+-> What Are The Significant Factc About Single Use Bags 
+    <<jump SingleUseBags>>      
+-> Should I Really Care?
+    <<jump IndepthImpact>>
+-> The 3Rs? 
+    <<jump AppOutro>>
+-> I think i am ready to make a difference. 
+    <<jump AppExit>>
+===
+
+
+title: PlasticBottle
+position: -816,289
+---
+Morgan Freeplastic: Plastic Bottles, the second most pollutant to our beloved ocean, 13 billion bottles are used each year in the UK,  with just 57% or 7.5 billion being recycled...Meaning 1,500 plastic bottles are thrown away every second of every day.#line:PlasticBottleIntr
+    We need to make better decisions.#line:WeNeedToMakeBetterDecisions
+-> Why do we need to make better decisions? 
+<<jump HowDoesThatImpactMe>>
+===
+
+title: SingleUseBags
+position: -523,291
+---
+Morgan Freeplastic: Plastic Bag, film and packaging remain the biggest ocean pollutant. A total of 133 million single-use bags were sold by retailers in 2022-23 in UK alone. which is equal to 4 bags a second generated per second. This is far from the zero waste we are trying to achieve. #line:PlasticBagIntro
+    Single use plastic bags are still around and we need to contiune our efforts. 
+-> but why should i be the one to change. 
+<<jump HowDoesThatImpactMe>>
+===
+title: SingleUseContainers
+position: -288,291
+---
+Here are the details. 
+<<jump HowDoesThatImpactMe>>
+===
+
+title: HowDoesThatImpactMe
+position: -42,551
+---
+Morgan Freeplastic: Plasic can take decades to break down,when Left Unmanaged, the plastic will find it’s way into our waterways, ocean...the stomach of innocent animals and eventually back to us.#line:HowDoesThisImpactMeIntro
+    Our actions are harming the very enviroment we live in.#line:OurActionsAreHArming
+-> What do you mean back to us? 
+Morgan Freeplastic: PET, Polyethylene terephthalate plastic are widely used to produce these items. A type of plastic that is made out of fossil fuel, it can take up to a few centuries to decompose these objects. Worst yet, the lengthy process lead to break down and creation of microplastics, creating horrific situation of wildlife dying from starvation with a stomach full of indigestible plastic pieces. #line:HowDoesThisImpactMeExpansion
+    Animals are dying because of our carelessness.#line:AnimalsAreDying
+-> What can we do to stop this? 
+ Morgan Freeplastic: The 3 Rs. Reduce, Reuse, Recycle. Better waste management is key to ending plastic pollution. To end plastic pollution, waste needs to be adequately managed. Around one-fifth of plastics are still mismanaged, meaning they are not recycled, incinerated, or kept in sealed landfills.Let us do a quick exercise. #line:The3Rs
+    Would you like to know how we can help?#line:WouldYouLikeToKnow
+->I'm ready to help! 
+    <<jump PlasticSortingGame>>
+->Can you tell me more about the impact?  
+    <<jump IndepthImpact>>
+->I dont think i am ready... 
+    <<jump StartMenu2>>
+===
+
+title: IndepthImpact
+position: 280,787
+---
+->Can i learn more about the items? 
+<<jump startMenu2>>
+===
+
+title: AppOutro
+position: -64,817
+---
+Morgan Freeplastic: To summarize the importance of plastic waste management .#line:ToSummarize
+
+ Remember, the problem of plastic is a global one, and to resolve a generational mistake like this will take the effort from all of us to resolve.#line:RememberAGenerational
+
+Don't forget the 3Rs#line:DontForgetThe3Rs
+
+Reduce, start by making conscious choices to reducing the amount of plastic we consume, bring your own containers or bags.#line:Reduce
+
+Reuse, expand the lifetime of your plastic items, reusing them as many times as you can.#line:Reuse
+
+Recycle, when the lifetime of your item is over, make sure it is properly discarded with the right method.#line:Recycle
+->Thank you, i will not forget these important points. 
+<<jump startMenu2>>
+===
+
+title: AppExit
+position: 565,819
+---
+Morgan Freeplastic: Don't forget to reach out to lessplastic.app whenever you are in doubt of what to do, you can also contact your local council for indepth recycling schemes. 
+-> Thank you, bye. 
+<<jump AppExit>>
+-> Can you bring me to the start again. 
+<<jump Start>>
+===
