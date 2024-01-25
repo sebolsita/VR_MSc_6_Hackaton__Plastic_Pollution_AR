@@ -1,6 +1,7 @@
 {
   "projectFileVersion": 2,
   "sourceFiles": [
+    "**/*.yarn",
     "**/*.yarn"
   ],
   "excludeFiles": [
@@ -8,7 +9,7 @@
   ],
   "localisation": {
     "en": {
-      "assets": "..\\..\\Johny\\Audio\\yarn_audio_johny"
+      "assets": "VoiceOverEN"
     }
   },
   "baseLanguage": "en",

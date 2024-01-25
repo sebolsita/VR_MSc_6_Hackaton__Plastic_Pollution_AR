@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028527, g: 0.22571558, b: 0.30692342, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -273,6 +273,25 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &276064875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6107973439444540282, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+  m_PrefabInstance: {fileID: 920814244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &276064879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276064875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6798449caec4a32a5ad27badb06624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textLanguageCode: en-GB
+  audioLanguage: en-GB
 --- !u!1 &283181426
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +546,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1020,6 +1039,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3422881318780370560, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: yarnProject
+      value: 
+      objectReference: {fileID: 7545569452688597077, guid: 46e8fed6226e20740886cfe242684802, type: 3}
+    - target: {fileID: 3422881318780370560, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: lineProvider
+      value: 
+      objectReference: {fileID: 276064879}
+    - target: {fileID: 3422881318780370560, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      propertyPath: startAutomatically
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4550968040176095942, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       propertyPath: audioSource
       value: 
@@ -1123,6 +1154,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6462876462144265087, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
       insertIndex: 3
       addedObject: {fileID: 1538128336}
+    - targetCorrespondingSourceObject: {fileID: 6107973439444540282, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 276064879}
   m_SourcePrefab: {fileID: 100100000, guid: d4bacc4eba3673d48a0ab37e520d2019, type: 3}
 --- !u!4 &920814245 stripped
 Transform:
