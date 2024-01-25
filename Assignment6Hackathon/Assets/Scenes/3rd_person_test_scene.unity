@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028527, g: 0.22571558, b: 0.30692342, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -950,6 +950,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8741277896955152619, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
   m_PrefabInstance: {fileID: 930796662}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &765065675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
+  m_PrefabInstance: {fileID: 930796662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &850678306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,7 +1201,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 539047526}
     m_Modifications:
     - target: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
       propertyPath: m_RootOrder
@@ -1204,7 +1209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.16
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1212,7 +1217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.011
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1682971599488559293, guid: 3cb94ff40f012bb4ab10324a45fe5080, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2405,6 +2410,10 @@ PrefabInstance:
       value: NPCCube2
       objectReference: {fileID: 0}
     - target: {fileID: 8286973037013521735, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+      propertyPath: scriptToLoad
+      value: 
+      objectReference: {fileID: 7545569452688597077, guid: 46e8fed6226e20740886cfe242684802, type: 3}
+    - target: {fileID: 8286973037013521735, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: characterName
       value: Cube2
       objectReference: {fileID: 0}
@@ -2856,7 +2865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5079932738637831228, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.16
+      value: 8.387
       objectReference: {fileID: 0}
     - target: {fileID: 5079932738637831228, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2920,7 +2929,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5079932738637831228, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 765065675}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5e780cfda18ab9469c25deff06532aa, type: 3}
 --- !u!114 &5079932738494291323 stripped
@@ -3086,7 +3098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Cube1
   talkToNode: NPCCube1
-  scriptToLoad: {fileID: 7545569452688597077, guid: 6169c57d59a0dc1448af9e205167cae6, type: 3}
+  scriptToLoad: {fileID: 7545569452688597077, guid: 46e8fed6226e20740886cfe242684802, type: 3}
   dialogueRunner: {fileID: 920814248}
   dialogueCanvas: {fileID: 920814246}
   PostionSpeachBubble: {x: 0, y: 2, z: 0}
@@ -3299,15 +3311,14 @@ SceneRoots:
   - {fileID: 1956113268}
   - {fileID: 7825374990703333725}
   - {fileID: 5079932738494291322}
-  - {fileID: 930796662}
   - {fileID: 8964370490744442019}
   - {fileID: 1045306426}
   - {fileID: 1779914142}
-  - {fileID: 689472460474278075}
   - {fileID: 3413766615555739686}
   - {fileID: 1724509194370223564}
   - {fileID: 3701471928604593154}
   - {fileID: 12521056646177583}
   - {fileID: 2940180853218909358}
   - {fileID: 760863581211560203}
+  - {fileID: 689472460474278075}
   - {fileID: 4328123095609078639}
