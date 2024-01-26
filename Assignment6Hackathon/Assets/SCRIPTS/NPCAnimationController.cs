@@ -15,6 +15,8 @@ public class NPCAnimationController : MonoBehaviour
     private bool isPlayerNearNpc = false;
     private bool isNpcNearChair = false;
 
+    public NPCLookAt nPCLookAt;
+
     void Start()
     {
         // Get the Animator component attached to this NPC
@@ -159,6 +161,10 @@ public class NPCAnimationController : MonoBehaviour
 
     void NpcGoToChair()
     {
+        if (nPCLookAt != null)
+        {
+            nPCLookAt.enabled = false;
+        }
         MoveToTarget(chairTransform);
         Debug.Log("NPC destination set  to chair");
         CheckIfNearChair();
@@ -167,6 +173,10 @@ public class NPCAnimationController : MonoBehaviour
             Debug.Log("NPC reached chair");
             animator.SetTrigger("SitDown");
             animator.SetBool("Sitting", true);
+            if (nPCLookAt != null)
+            {
+                nPCLookAt.enabled = true;
+            }
         }
     }
 

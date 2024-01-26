@@ -1075,6 +1075,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7459288826783701777, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
   m_PrefabInstance: {fileID: 689472460474278075}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &886205412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 886205413}
+  m_Layer: 0
+  m_Name: DeskCameraTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &886205413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886205412}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.027, y: 1.086, z: -0.022}
+  m_LocalScale: {x: 2.2966, y: 2.1162, z: 2.5775}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1358890604}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &920814244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1979,6 +2010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
   chairTransform: {fileID: 0}
+  nPCLookAt: {fileID: 0}
 --- !u!1 &1829210524 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7825374989609610537, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
@@ -2507,6 +2539,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 685974753}
+    - target: {fileID: 4364689445333680980, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+      propertyPath: deskTarget
+      value: 
+      objectReference: {fileID: 886205413}
+    - target: {fileID: 4364689445333680980, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+      propertyPath: playerTarget
+      value: 
+      objectReference: {fileID: 685974753}
     - target: {fileID: 4581566190714175324, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.22
@@ -2560,6 +2600,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 838038281}
     - target: {fileID: 5994427300766628499, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+      propertyPath: nPCLookAt
+      value: 
+      objectReference: {fileID: 689472460474278092}
+    - target: {fileID: 5994427300766628499, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: chairTransform
       value: 
       objectReference: {fileID: 2005892891}
@@ -2573,7 +2617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7459288826783701777, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8286973037013521735, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: talkToNode
@@ -2645,6 +2689,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &689472460474278092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4364689445333680980, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+  m_PrefabInstance: {fileID: 689472460474278075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858665230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e5a37af0d308245b599f6db12ae2aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &689472460474278145 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8100534600430733427, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
@@ -2793,6 +2848,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2047257840697528931, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
       insertIndex: -1
       addedObject: {fileID: 838038280}
+    - targetCorrespondingSourceObject: {fileID: 1145181375732983205, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 886205413}
     - targetCorrespondingSourceObject: {fileID: 1145181375732983205, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1512328338}
@@ -3491,8 +3549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d1d5cd39428a444bdb78f0f4d60113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 685974753}
   chairTransform: {fileID: 0}
+  nPCLookAt: {fileID: 8217957323004007806}
 --- !u!114 &8217957323004007801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3599,7 +3658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6e5a37af0d308245b599f6db12ae2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 685974753}
+  playerTarget: {fileID: 685974753}
+  deskTarget: {fileID: 0}
   maxHeadTurnAngle: 1
   headTurnSpeed: 3
   bodyTurnSpeed: 2
