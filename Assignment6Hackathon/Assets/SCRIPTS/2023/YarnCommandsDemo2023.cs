@@ -30,6 +30,12 @@ public class YarnCommandsDemo2023 : MonoBehaviour
         spawner.SetActive(true);
     }
 
+    [YarnCommand("TurnOffPlasticBottleSpawner")]
+    public void DeActivateSpawnerOfBottles()
+    {
+        spawner.SetActive(false);
+    }
+
     [YarnCommand("TapOnTable")]
     public void TapTheTable()
     {
@@ -40,5 +46,12 @@ public class YarnCommandsDemo2023 : MonoBehaviour
     public void ArmPointRight()
     {
         npcAnimatorMale.SetTrigger("StandingArmPointRight");
+    }
+
+    [YarnCommand("DanceOn")]
+    public void DanceOn()
+    {
+        npcAnimatorMale.SetBool("StandingSalsaDance", true);
+        npcAnimatorFemale.SetBool("StandingSillyDance", true);
     }
 }

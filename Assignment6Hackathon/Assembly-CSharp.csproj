@@ -81,7 +81,6 @@
     <Compile Include="Assets\MRTemplateAssets\Scripts\PinchVizController.cs" />
     <Compile Include="Assets\ObjectPools\Scripts\DespawnedPoolObject.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\LaunchProjectile.cs" />
-    <Compile Include="Assets\SCRIPTS\2023\YarnCommandsDemo2024.cs" />
     <Compile Include="Assets\SCRIPTS\NavMeshBaker.cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\PositionAtStart.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\LoadingAnimation.cs" />
@@ -95,6 +94,7 @@
     <Compile Include="Assets\HandController.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\SCRIPTS\2023\KeyboardMovementPlayer.cs" />
+    <Compile Include="Assets\SCRIPTS\2023\YarnCommandsDemo2024(obsolete).cs" />
     <Compile Include="Assets\MRTemplateAssets\Scripts\TurnToFace.cs" />
     <Compile Include="Assets\SCRIPTS\AreaDetection.cs" />
     <Compile Include="Assets\Samples\Ready Player Me Core\4.0.1\QuickStart\Scripts\CameraOrbit.cs" />

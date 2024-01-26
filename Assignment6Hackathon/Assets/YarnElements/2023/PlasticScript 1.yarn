@@ -1,14 +1,14 @@
 ﻿title: Awake
 tag:
 colorID: 0
-position: -222,-222
+position: -277,-369
 ---
-
 <<declare $startedScene = true>>
 <<declare $cubeToChange = "" as string>>
 <<declare $colourOfCube = "" as string>>
 <<declare $numberOfNPCs = 0>>
 <<declare $visitedCubeOne = false>>
+<<declare $visitedCubeOneAgain = false>>
 <<declare $visitedCubeTwo = false>>
 <<declare $guitarState = false>>
 
@@ -17,39 +17,80 @@ position: -222,-222
 
 title: Start
 tags:
-position: -43,-90
+position: -46,-65
 ---
+<<Set_Audio_To_NPC_One LipSync>>
+
+<<if $visitedCubeOne is false>>
+
 Morgan Freeplastic: "Every year, millions of tons of plastic waste pour into our oceans, rivers, and landscapes, creating a crisis invisible to many. Today, we'll explore the reality of plastic pollution and what we can do to make a difference. In front of you are a few common plastic items that heavily pollute our planet, let's pick one and continue." #line:PlasticLineIntro1
-//Pcik a plastic item to begin
+Pick an Item to begin.#line:PickAnItemToBrign
 <<TapOnTable YarnCommands>>
-    Pick an Item to begin.#line:PickAnItemToBrign
-    
+
 -> Plastic Bottle  
+    <<set $visitedCubeOne to true>>
     <<jump PlasticBottle>>
 -> Single Use Bags 
+    <<set $visitedCubeOne to true>>
     <<jump SingleUseBags>>
 -> Single Use Contaiers 
+    <<set $visitedCubeOne to true>>
     <<jump SingleUseContainers>>       
 -> Why Should I Care? 
+    <<set $visitedCubeOne to true>>
     <<jump HowDoesThatImpactMe>>
 -> Can you tell me about the 3Rs?  
+    <<set $visitedCubeOne to true>>
     <<jump AppOutro>>
+
+<<else>>
+<<jump startMenu2>>
+<<endif>>  
+
 ===
 
 title: startMenu2
-position: 258,39
+position: 474,-67
 ---
-Morgan Freeplastic: Is there anything else you would like to know?  
+<<Set_Audio_To_NPC_One LipSync>>
+
+<<if $visitedCubeOneAgain is false>>
+Morgan Freeplastic: Is there anything else you would like to know? #line:IsThereAnythingElse
+
 -> Can you tell me about Plastic Bottle again. 
+    <<set $visitedCubeOneAgain to true>>
     <<jump PlasticBottle>>
+    
 -> What Are The Significant Factc About Single Use Bags 
-    <<jump SingleUseBags>>      
--> Should I Really Care?
-    <<jump IndepthImpact>>
+    <<set $visitedCubeOneAgain to true>>
+    <<jump SingleUseBags>>    
+     
 -> The 3Rs? 
+    <<set $visitedCubeOneAgain to true>>
     <<jump AppOutro>>
+    
 -> I think i am ready to make a difference. 
+    <<set $visitedCubeOneAgain to true>>
     <<jump AppExit>>
+    
+<<else>>
+<<jump startMenu3>>
+<<endif>>
+===
+
+title: startMenu3
+position: 474,-67
+---
+Morgan Freeplastic : I would appericate you to focus and listen to what i have to say before you walk off. #line:IWouldAppreciate
+Morgan Freeplastic : Let's try this again. #line:LetsTryThisAgain
+-> Can you tell me about Plastic Bottle again. 
+   <<jump PlasticBottle>>
+-> What Are The Significant Factc About Single Use Bags 
+    <<jump SingleUseBags>>    
+-> The 3Rs? 
+        <<jump AppOutro>>
+-> I think i am ready to make a difference. 
+        <<jump AppExit>> 
 ===
 
 
@@ -66,44 +107,37 @@ title: SingleUseBags
 position: -523,291
 ---
 Morgan Freeplastic: Plastic Bag, film and packaging remain the biggest ocean pollutant. A total of 133 million single-use bags were sold by retailers in 2022-23 in UK alone. which is equal to 4 bags a second generated per second. This is far from the zero waste we are trying to achieve. #line:PlasticBagIntro
-    Single use plastic bags are still around and we need to contiune our efforts. 
+    Single use plastic bags are still around and we need to contiune our efforts. #line:SingleUsePlasticBags
+    <<PointToTheRight YarnCommands>>
 -> but why should i be the one to change. 
 <<jump HowDoesThatImpactMe>>
 ===
 title: SingleUseContainers
 position: -288,291
 ---
-Here are the details. 
+Here are the details. #line:HereAreTheDetails
 <<jump HowDoesThatImpactMe>>
 ===
 
 title: HowDoesThatImpactMe
 position: -42,551
 ---
+<<TurnOnPlasticBottleSpawner YarnCommands>>
 Morgan Freeplastic: Plasic can take decades to break down,when Left Unmanaged, the plastic will find it’s way into our waterways, ocean...the stomach of innocent animals and eventually back to us.#line:HowDoesThisImpactMeIntro
     Our actions are harming the very enviroment we live in.#line:OurActionsAreHArming
--> What do you mean back to us?
-<<TurnOnPlasticBottleSpawner YarnCommands>> 
+-> What do you mean back to us? 
 Morgan Freeplastic: PET, Polyethylene terephthalate plastic are widely used to produce these items. A type of plastic that is made out of fossil fuel, it can take up to a few centuries to decompose these objects. Worst yet, the lengthy process lead to break down and creation of microplastics, creating horrific situation of wildlife dying from starvation with a stomach full of indigestible plastic pieces. #line:HowDoesThisImpactMeExpansion
     Animals are dying because of our carelessness.#line:AnimalsAreDying
 -> What can we do to stop this? 
-<<PointToTheRight YarnCommands>>
  Morgan Freeplastic: The 3 Rs. Reduce, Reuse, Recycle. Better waste management is key to ending plastic pollution. To end plastic pollution, waste needs to be adequately managed. Around one-fifth of plastics are still mismanaged, meaning they are not recycled, incinerated, or kept in sealed landfills.Let us do a quick exercise. #line:The3Rs
     Would you like to know how we can help?#line:WouldYouLikeToKnow
+    <<TurnOffPlasticBottleSpawner  YarnCommands>>
 ->I'm ready to help! 
-    <<jump PlasticSortingGame>>
-->Can you tell me more about the impact?  
-    <<jump IndepthImpact>>
+    <<jump AppOutro>>
 ->I dont think i am ready... 
     <<jump StartMenu2>>
 ===
 
-title: IndepthImpact
-position: 280,787
----
-->Can i learn more about the items? 
-<<jump startMenu2>>
-===
 
 title: AppOutro
 position: -64,817
@@ -126,9 +160,10 @@ Recycle, when the lifetime of your item is over, make sure it is properly discar
 title: AppExit
 position: 565,819
 ---
-Morgan Freeplastic: Don't forget to reach out to lessplastic.app whenever you are in doubt of what to do, you can also contact your local council for indepth recycling schemes. 
+Morgan Freeplastic: Don't forget to reach out to lessplastic.app whenever you are in doubt of what to do, you can also contact your local council for indepth recycling schemes. #line:DontForgetToReachOut
+<<DanceOn YarnCommands>>
 -> Thank you, bye. 
 <<jump AppExit>>
 -> Can you bring me to the start again. 
-<<jump Start>>
+<<jump startMenu2>>
 ===
