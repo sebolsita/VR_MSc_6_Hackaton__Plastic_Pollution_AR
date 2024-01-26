@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BottleOfWater 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bfe4bd7ca2c7a254dbc9bcd23bb71cbe, type: 3}
+      propertyPath: m_TagString
+      value: PLASTIC
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfe4bd7ca2c7a254dbc9bcd23bb71cbe, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25
@@ -160,7 +164,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.26
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -204,7 +208,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -270,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab3fb3719053d647822b7bd1fa66f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _despawnDelay: 10
+  _despawnDelay: 2
 --- !u!114 &3369045525229168946
 MonoBehaviour:
   m_ObjectHideFlags: 0

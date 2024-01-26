@@ -7,7 +7,7 @@ using UnityEngine;
 /// </summary>
 public class DespawnAfterDelay : MonoBehaviour
 {
-    [SerializeField] [Range(5f, 30f)] float _despawnDelay = 10f;
+    [SerializeField] [Range(0.1f, 30f)] float _despawnDelay = 10f;
 
     private void OnEnable()
     {

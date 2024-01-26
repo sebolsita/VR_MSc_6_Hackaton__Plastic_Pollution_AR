@@ -1,42 +1,52 @@
 using UnityEngine;
 
-public class NPCController : MonoBehaviour
+public class NPCLookAt : MonoBehaviour
 {
-    public Transform target;
-    public float maxHeadTurnAngle = 70f; // Maximum angle the head can turn
-    public float headTurnSpeed = 3f; // Speed at which the head turns
-    public float bodyTurnSpeed = 2f; // Speed at which the body turns
-    public Animator animator; // The Animator for your NPC
+    public Transform playerTarget; // Target when not sitting
+    public Transform deskTarget; // Target when sitting
+    public float maxHeadTurnAngle = 40f;
+    public float headTurnSpeed = 3f;
+    public float bodyTurnSpeed = 2f;
+    public Animator animator;
 
-    private Transform headTransform; // Cached head transform
+    private Transform headTransform;
+    private Transform currentTarget;
 
     void Start()
     {
-        // Cache the head transform here, adjust this to your specific rig setup
         headTransform = animator.GetBoneTransform(HumanBodyBones.Head);
+        currentTarget = playerTarget; // Initially set to player target
+    }
+
+    void Update()
+    {
+        // Check if the NPC is sitting
+        if (animator.GetBool("Sitting"))
+        {
+            currentTarget = deskTarget; // If sitting, look at the desk
+        }
+        else
+        {
+            currentTarget = playerTarget; // If not sitting, look at the player
+        }
     }
 
     void OnAnimatorIK(int layerIndex)
     {
-        // Use the IK system to look at the target with a certain weight
-        animator.SetLookAtWeight(1f); // Adjust this weight as necessary
-        animator.SetLookAtPosition(target.position);
+        animator.SetLookAtWeight(1f);
+        animator.SetLookAtPosition(currentTarget.position);
     }
 
     void LateUpdate()
     {
-        // Calculate the direction from the NPC to the target
-        Vector3 targetDirection = target.position - transform.position;
-        targetDirection.y = 0; // Keep the rotation in the horizontal plane
+        Vector3 targetDirection = currentTarget.position - transform.position;
+        targetDirection.y = 0;
 
-        // Calculate the direction from the head to the target
-        Vector3 headTargetDirection = target.position - headTransform.position;
-        headTargetDirection.y = 0; // This keeps the head's rotation in the horizontal plane
+        Vector3 headTargetDirection = currentTarget.position - headTransform.position;
+        headTargetDirection.y = 0;
 
-        // Calculate the current rotation angle of the head
         float currentHeadAngle = Vector3.Angle(headTransform.forward, headTargetDirection);
 
-        // Rotate the head towards the target if within the max head turn angle
         if (currentHeadAngle <= maxHeadTurnAngle)
         {
             Quaternion headRotation = Quaternion.LookRotation(headTargetDirection);
@@ -44,9 +54,9 @@ public class NPCController : MonoBehaviour
         }
         else
         {
-            // If the head is turned to its limit, begin rotating the body
             Quaternion bodyRotation = Quaternion.LookRotation(targetDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, bodyRotation, Time.deltaTime * bodyTurnSpeed);
         }
     }
 }
+

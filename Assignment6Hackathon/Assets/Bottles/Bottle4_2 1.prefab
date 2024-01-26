@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 499433530881691757}
   m_Layer: 0
   m_Name: Bottle4_2 1
-  m_TagString: Untagged
+  m_TagString: PLASTIC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab3fb3719053d647822b7bd1fa66f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _despawnDelay: 30
+  _despawnDelay: 2
 --- !u!114 &-4855961947265175358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,7 +347,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.26
   m_Pitch: 1
   Loop: 0
   Mute: 0
