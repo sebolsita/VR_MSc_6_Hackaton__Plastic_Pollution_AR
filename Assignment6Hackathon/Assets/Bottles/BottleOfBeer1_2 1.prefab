@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -3836225111169055073}
   m_Layer: 0
   m_Name: BottleOfBeer1_2 1
-  m_TagString: Untagged
+  m_TagString: PLASTIC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

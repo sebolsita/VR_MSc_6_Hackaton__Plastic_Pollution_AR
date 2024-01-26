@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 4648213361081201332}
   m_Layer: 0
   m_Name: Bottle3_1 1
-  m_TagString: Untagged
+  m_TagString: PLASTIC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
