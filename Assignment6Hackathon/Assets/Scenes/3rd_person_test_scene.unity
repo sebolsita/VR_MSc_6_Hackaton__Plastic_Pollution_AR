@@ -2838,9 +2838,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.43
       objectReference: {fileID: 0}
+    - target: {fileID: 4975882349456582552, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      propertyPath: _spawnDelay
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975882349456582552, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      propertyPath: _launchForce
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975882349456582552, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      propertyPath: _randomizationRangeX
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975882349456582552, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      propertyPath: _randomizationRangeZ
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 6036702507564272064, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
       propertyPath: m_Name
       value: TableAndChair
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065413107037554873, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.422
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
