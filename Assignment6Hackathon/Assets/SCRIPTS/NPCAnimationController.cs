@@ -7,9 +7,6 @@ public class NPCAnimationController : MonoBehaviour
     private Animator animator;
     private NavMeshAgent navMeshAgent;
 
-    public BoxCollider deskArea;
-    public BoxCollider npcArea;
-    public BoxCollider chairArea;
     public Transform playerTransform;
     public Transform chairTransform;
 
@@ -97,32 +94,6 @@ public class NPCAnimationController : MonoBehaviour
             isPlayerInvited = true;
         }
     }
-
-/*    public void OnPlayerEnterDeskArea()
-    {
-        isPlayerAtDesk = true;
-        Debug.Log("Player detected at desk (from NPCAnimationController)");
-    }
-
-    public void OnPlayerExitDeskArea()
-    {
-        isPlayerAtDesk = false;
-        Debug.Log("Player left desk area (from NPCAnimationController)");
-    }
-
-    public void OnPlayerEnterNpcArea()
-    {
-        isPlayerNearNpc = true;
-        Debug.Log("Player detected near NPC (from NPCAnimationController)");
-    }
-
-    public void OnPlayerExitNpcArea()
-    {
-        isPlayerNearNpc = false;
-        Debug.Log("Player left NPC area (from NPCAnimationController)");
-    }
-    // ... Similarly for chairArea if needed*/
-
 
     void MoveToTarget(Transform targetTransform)
     {

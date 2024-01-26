@@ -21,7 +21,9 @@ position: -43,-90
 ---
 Morgan Freeplastic: "Every year, millions of tons of plastic waste pour into our oceans, rivers, and landscapes, creating a crisis invisible to many. Today, we'll explore the reality of plastic pollution and what we can do to make a difference. In front of you are a few common plastic items that heavily pollute our planet, let's pick one and continue." #line:PlasticLineIntro1
 //Pcik a plastic item to begin
+<<TapOnTable YarnCommands>>
     Pick an Item to begin.#line:PickAnItemToBrign
+    
 -> Plastic Bottle  
     <<jump PlasticBottle>>
 -> Single Use Bags 
@@ -80,10 +82,12 @@ position: -42,551
 ---
 Morgan Freeplastic: Plasic can take decades to break down,when Left Unmanaged, the plastic will find it’s way into our waterways, ocean...the stomach of innocent animals and eventually back to us.#line:HowDoesThisImpactMeIntro
     Our actions are harming the very enviroment we live in.#line:OurActionsAreHArming
--> What do you mean back to us? 
+-> What do you mean back to us?
+<<TurnOnPlasticBottleSpawner YarnCommands>> 
 Morgan Freeplastic: PET, Polyethylene terephthalate plastic are widely used to produce these items. A type of plastic that is made out of fossil fuel, it can take up to a few centuries to decompose these objects. Worst yet, the lengthy process lead to break down and creation of microplastics, creating horrific situation of wildlife dying from starvation with a stomach full of indigestible plastic pieces. #line:HowDoesThisImpactMeExpansion
     Animals are dying because of our carelessness.#line:AnimalsAreDying
 -> What can we do to stop this? 
+<<PointToTheRight YarnCommands>>
  Morgan Freeplastic: The 3 Rs. Reduce, Reuse, Recycle. Better waste management is key to ending plastic pollution. To end plastic pollution, waste needs to be adequately managed. Around one-fifth of plastics are still mismanaged, meaning they are not recycled, incinerated, or kept in sealed landfills.Let us do a quick exercise. #line:The3Rs
     Would you like to know how we can help?#line:WouldYouLikeToKnow
 ->I'm ready to help! 

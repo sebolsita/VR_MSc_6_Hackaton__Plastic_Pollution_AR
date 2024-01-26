@@ -1067,23 +1067,9 @@ MonoBehaviour:
   NPCGameObjects:
   - {fileID: 0}
   - {fileID: 283181426}
-  blue: {fileID: 2100000, guid: 3cc094d53bd42dd4083a33d5d40b7806, type: 2}
-  red: {fileID: 2100000, guid: 523a04b4d1a02764481283b2f0a6756f, type: 2}
-  orange: {fileID: 2100000, guid: c94b7f9d30d0e4144aef346e21fd4752, type: 2}
-  npcAnimator: {fileID: 1779914150}
-  guituarObject: {fileID: 0}
-  smokeObject: {fileID: 0}
-  byeObject: {fileID: 0}
-  crowd: {fileID: 0}
-  crowd2: {fileID: 0}
-  crowd3: {fileID: 0}
-  crowd4: {fileID: 0}
-  crowd5: {fileID: 0}
-  crowd6: {fileID: 0}
-  crowd7: {fileID: 0}
-  crowd8: {fileID: 0}
-  crowd9: {fileID: 0}
-  crowd10: {fileID: 0}
+  npcAnimatorMale: {fileID: 8217957323004007808}
+  npcAnimatorFemale: {fileID: 689472460474278087}
+  spawner: {fileID: 1156677132}
 --- !u!1 &858665230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7459288826783701777, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
@@ -1364,6 +1350,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7825374989609610538, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
   m_PrefabInstance: {fileID: 7825374990703333725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1156677132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6048179158976884099, guid: 291f78940a446c84aaa3b4e41cdb5589, type: 3}
+  m_PrefabInstance: {fileID: 1724509194370223564}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1258174333
 GameObject:
@@ -1986,16 +1977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d1d5cd39428a444bdb78f0f4d60113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deskArea: {fileID: 0}
-  npcArea: {fileID: 0}
-  chairArea: {fileID: 0}
   playerTransform: {fileID: 0}
   chairTransform: {fileID: 0}
---- !u!95 &1779914150 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5245108209394196066, guid: e26750839387d124895d93bef58af172, type: 3}
-  m_PrefabInstance: {fileID: 1779914142}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1829210524 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7825374989609610537, guid: 01f1fd5ec62010a4ca56411ec3f9751c, type: 3}
@@ -2588,6 +2571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Recycling_Fem
       objectReference: {fileID: 0}
+    - target: {fileID: 7459288826783701777, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8286973037013521735, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
       propertyPath: talkToNode
       value: NPCCube2
@@ -2624,6 +2611,11 @@ Transform:
 --- !u!65 &689472460474278077 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 541646090569744298, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
+  m_PrefabInstance: {fileID: 689472460474278075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &689472460474278087 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7101865585919412556, guid: 010b2a55c2396b143a5524c0fe23670e, type: 3}
   m_PrefabInstance: {fileID: 689472460474278075}
   m_PrefabAsset: {fileID: 0}
 --- !u!54 &689472460474278088
@@ -3035,7 +3027,7 @@ PrefabInstance:
     - target: {fileID: 5135976966759281680, guid: bf433baa78dd06e44b7e50c7430c92a1, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 3394e5474ca856241b39809f12c204a8, type: 2}
+      objectReference: {fileID: 9100000, guid: 023613690fb16704f83a16a371821ea5, type: 2}
     - target: {fileID: 7349148002065216880, guid: bf433baa78dd06e44b7e50c7430c92a1, type: 3}
       propertyPath: m_Name
       value: Renderer_Avatar_Male
@@ -3350,9 +3342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d1d5cd39428a444bdb78f0f4d60113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deskArea: {fileID: 0}
-  npcArea: {fileID: 0}
-  chairArea: {fileID: 0}
   playerTransform: {fileID: 0}
   chairTransform: {fileID: 0}
 --- !u!114 &8217957323004007801
